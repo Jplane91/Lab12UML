@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lab12
 {
@@ -27,7 +24,6 @@ namespace Lab12
         public static void PrintPersonList(List<Person> list)
         {
             Console.WriteLine("List of Students and Staff:\n");
-            Console.WriteLine("STUDENTS:");
             foreach (var item in list)
             {
 

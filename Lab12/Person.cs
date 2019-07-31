@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Lab12
 {
@@ -23,7 +20,7 @@ namespace Lab12
      
         public override string ToString()
         {
-            string nameAndAddress = "Person\nName: " + Name + "\nDddress: " + Address;
+            string nameAndAddress = "Person\nName: " + Name + "\nAddress: " + Address;
             return nameAndAddress;
         }
     }
