@@ -15,15 +15,12 @@ namespace Lab12
                 new Student("Pre-Med", 2, 8000, "Steven", "515 Madison Drive"),
                 new Student("Business", 2, 6500, "Jake", "123 Michigan Avenue"),
                 new Staff("University of Michigan", 80000, "Doris", "313 Potter Road"),
-                new Staff("University of Michgian", 75000, "Matthew", "7314 Main Road"),
+                new Staff("University of Michigan", 75000, "Matthew", "7314 Main Road"),
 
             };
         static void Main(string[] args)
         {
             PrintPersonList(peopleList);
-
-
-
 
         }
 
@@ -53,7 +50,6 @@ namespace Lab12
                     Console.WriteLine("\n" + staffList);
                 }
             }
-
 
         }
             

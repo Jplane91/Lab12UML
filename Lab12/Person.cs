@@ -17,8 +17,8 @@ namespace Lab12
         }
         public Person(string name, string address)
         {
-            this.Name = name;
-            this.Address = address;
+            Name = name;
+            Address = address;
         }
      
         public override string ToString()

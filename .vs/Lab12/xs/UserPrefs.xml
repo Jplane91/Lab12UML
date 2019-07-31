@@ -1,17 +1,17 @@
 ﻿<Properties StartupConfiguration="{038CE9EC-315D-4E65-98DA-1CDC9287E9CB}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Lab12/Student.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab12/Program.cs">
     <Files>
-      <File FileName="Lab12/Program.cs" Line="61" Column="2" />
-      <File FileName="Lab12/Person.cs" Line="29" Column="6" />
-      <File FileName="Lab12/Staff.cs" Line="33" Column="2" />
-      <File FileName="Lab12/Student.cs" Line="30" Column="40" />
+      <File FileName="Lab12/Program.cs" Line="25" Column="10" />
+      <File FileName="Lab12/Person.cs" Line="30" Column="2" />
+      <File FileName="Lab12/Staff.cs" Line="31" Column="10" />
+      <File FileName="Lab12/Student.cs" Line="30" Column="53" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Lab12" expanded="True">
             <Node name="Lab12" expanded="True">
-              <Node name="Student.cs" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
