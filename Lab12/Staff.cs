@@ -21,10 +21,15 @@ namespace Lab12
         }
         public override string ToString()
         {
-            string staffInfo = "Person\nName: " + Name + "\nAddress: " + Address + "\nSchool: " + School +
-                "\nPay: " + Pay;
+            string staffInfo = "\tPerson\n\tName: " + Name + "\n\tAddress: " + Address + "\n\tSchool: " + School +
+                "\n\tPay: " + Pay;
             return staffInfo;
 
+        }
+
+        internal static void Add(string addSchool, int addPay, string addName, string addAddress)
+        {
+            throw new NotImplementedException();
         }
     }
 }

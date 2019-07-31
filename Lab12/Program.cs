@@ -17,13 +17,19 @@ namespace Lab12
             };
         static void Main(string[] args)
         {
-            PrintPersonList(peopleList);
+            bool loop = true;
+            while (loop)
+            {
+                PrintPersonList(peopleList);
+                AddToList(peopleList);
 
+            }
         }
 
         public static void PrintPersonList(List<Person> list)
         {
             Console.WriteLine("List of Students and Staff:\n");
+            Console.WriteLine("STUDENT LIST");
             foreach (var item in list)
             {
 
@@ -36,7 +42,7 @@ namespace Lab12
 
             }
 
-            Console.WriteLine("STAFF");
+            Console.WriteLine("STAFF LIST");
             foreach (var item1 in list)
             {
                 var staff = item1 as Staff;
@@ -46,8 +52,72 @@ namespace Lab12
                     Console.WriteLine("\n" + staffList);
                 }
             }
-
         }
-            
+
+        public static void AddToList(List<Person> list)
+        {
+            bool addToList = true;
+            while (addToList)
+            {
+                Console.WriteLine("Would you like to enter a Staff or Student?");
+                string addResponse = Console.ReadLine().ToLower();
+                if (addResponse == "staff")
+                {
+                    Staff staffInfo = new Staff();
+
+                    Console.WriteLine("Enter School");
+                    staffInfo.School = Console.ReadLine();
+
+                    Console.WriteLine("Enter Pay");
+                    staffInfo.Pay = int.Parse(Console.ReadLine());
+
+                    Console.WriteLine("Enter Name");
+                    staffInfo.Name = Console.ReadLine();
+
+                    Console.WriteLine("Enter Address");
+                    staffInfo.Address = Console.ReadLine();
+
+                    Program.peopleList.Add(staffInfo);
+                    Console.Clear();
+                    break;
+
+
+                }
+
+                else if (addResponse == "student")
+                {
+                    Student studentInfo = new Student();
+
+                    Console.WriteLine("Enter Their Program");
+                    studentInfo.Program = Console.ReadLine();
+
+                    Console.WriteLine("Enter Their Year");
+                    studentInfo.Year = int.Parse(Console.ReadLine());
+
+                    Console.WriteLine("Enter Fee");
+                    studentInfo.Fee = int.Parse(Console.ReadLine());
+
+                    Console.WriteLine("Enter Name");
+                    studentInfo.Name = Console.ReadLine();
+
+                    Console.WriteLine("Enter Address");
+                    studentInfo.Address = Console.ReadLine();
+
+                    Program.peopleList.Add(studentInfo);
+
+                    Console.WriteLine("Hit any key to continue");
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input");
+                    addToList = true;
+                }
+
+                Console.Clear();
+            }
+        }
+
+
     }
 }

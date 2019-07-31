@@ -20,7 +20,7 @@ namespace Lab12
      
         public override string ToString()
         {
-            string nameAndAddress = "Person\nName: " + Name + "\nAddress: " + Address;
+            string nameAndAddress = "Person\n\tName: " + Name + "\n\tAddress: " + Address;
             return nameAndAddress;
         }
     }

@@ -22,8 +22,8 @@ namespace Lab12
       
         public override string ToString()
         {
-            string studentInfo = "Person\nName: " + Name + "\nAddress: " + Address + "\nProgram: " + Program +
-                "\nYear: " + Year + "\nFee: " + Fee;
+            string studentInfo = "\tPerson\n\tName: " + Name + "\n\tAddress: " + Address + "\n\tProgram: " + Program +
+                "\n\tYear: " + Year + "\n\tFee: " + Fee;
             return studentInfo;
         }
 
