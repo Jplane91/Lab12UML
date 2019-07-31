@@ -1,0 +1,11 @@
+/Users/mac/Projects/Lab12/Lab12/obj/Debug/netcoreapp2.2/Lab12.csprojAssemblyReference.cache
+/Users/mac/Projects/Lab12/Lab12/obj/Debug/netcoreapp2.2/Lab12.csproj.CoreCompileInputs.cache
+/Users/mac/Projects/Lab12/Lab12/obj/Debug/netcoreapp2.2/Lab12.AssemblyInfoInputs.cache
+/Users/mac/Projects/Lab12/Lab12/obj/Debug/netcoreapp2.2/Lab12.AssemblyInfo.cs
+/Users/mac/Projects/Lab12/Lab12/bin/Debug/netcoreapp2.2/Lab12.deps.json
+/Users/mac/Projects/Lab12/Lab12/bin/Debug/netcoreapp2.2/Lab12.runtimeconfig.json
+/Users/mac/Projects/Lab12/Lab12/bin/Debug/netcoreapp2.2/Lab12.runtimeconfig.dev.json
+/Users/mac/Projects/Lab12/Lab12/bin/Debug/netcoreapp2.2/Lab12.dll
+/Users/mac/Projects/Lab12/Lab12/bin/Debug/netcoreapp2.2/Lab12.pdb
+/Users/mac/Projects/Lab12/Lab12/obj/Debug/netcoreapp2.2/Lab12.dll
+/Users/mac/Projects/Lab12/Lab12/obj/Debug/netcoreapp2.2/Lab12.pdb
